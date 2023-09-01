@@ -37,12 +37,12 @@ recipes.map((recipe, index)=>(
   <td>
     <img src={recipe.photo} alt="recipe photo"/>
   </td>
-  <td>
-    <p>{recipe.ingredients}</p>
-  </td>
-  <td>
-    <p>{recipe.preparation}</p>
-  </td>
+  <td className="content_td">
+    <p>{(recipe.ingredients)}</p>
+    </td>
+  <td className="content_td">
+    <p>{(recipe.preparation)}</p>
+    </td>
   <td><button name="delete" onClick={() => deleteRecipe(index)}>
             Delete
           </button></td>

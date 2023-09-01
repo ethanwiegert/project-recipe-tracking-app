@@ -13,6 +13,18 @@ header {
   box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
 }
 
+h1{
+  font-family:'Playfair Display SC', 'helvetica neue', sans-serif;
+  text-align: center;
+  font-size: 64px;
+}
+
+img{
+  object-fit: scale-down;
+  height: 100%;
+  width: 100%;
+}
+
 /* typography */
 
 html {
@@ -56,5 +68,16 @@ table {
 
 /* Column Size for thead */
 
-
 /* Column size for tbody */
+
+tr:nth-child(odd) {
+  background-color: #fff0c7;
+}
+
+th:nth-child(1), th:nth-child(2), th:nth-child(3), th:nth-child(6), td:nth-child(1), td:nth-child(2), td:nth-child(3), td:nth-child(6) {
+  width: 10%;
+}
+
+th:nth-child(4), th:nth-child(5), td:nth-child(4), td:nth-child(5) {
+  width: 30%;
+}

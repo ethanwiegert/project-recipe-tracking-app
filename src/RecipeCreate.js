@@ -49,11 +49,11 @@ function RecipeCreate({setRecipes}) {
             </td>
             <td>
             <label htmlFor="ingredients">Ingredients:</label> 
-             <textarea id="ingredients" name="ingredients" type="text" value={ingredients} onChange={handleIngredientsChange}/>
+             <textarea id="ingredients" name="ingredients" type="text"  onChange={handleIngredientsChange}/>
             </td>
             <td>
             <label htmlFor="preparation">Preparation:</label> 
-             <textarea id="preparation" name="preparation" type="text" value={preparation} onChange={handlePreparationChange}/>
+             <textarea id="preparation" name="preparation" type="text" onChange={handlePreparationChange}/>
             </td>
             <td>
               <button type="submit">Create</button>
